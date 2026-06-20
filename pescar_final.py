@@ -1,42 +1,41 @@
-import requests, re, gzip, xml.etree.ElementTree as ET
-from datetime import datetime
+import requests, re, xml.etree.ElementTree as ET
 
 FUENTES = {
     "TDT": "https://www.tdtchannels.com/lists/tv.m3u",
-    "Pluto": "https://raw.githubusercontent.com/iptv-org/iptv/master/countries/es.m3u",
-    "PlutoCine": "https://i.mjh.nz/PlutoTV/es.m3u8",
+    "Pluto": "https://i.mjh.nz/PlutoTV/es.m3u8",
     "Espanol": "https://iptv-org.github.io/iptv/languages/spa.m3u",
 }
-EPGS = [
-    "https://www.tdtchannels.com/epg.xml.gz",
-    "https://iptv-org.github.io/epg/guides/es/pluto.tv.epg.xml.gz",
-]
 
-print("🎣 PESCANDO SIN TEST...")
+def clasificar(nombre, grupo_original):
+    n = (nombre + " " + grupo_original).lower()
+    if any(x in n for x in ["cine","pelicula","pluto cine","accion","terror","comedia","drama","estelar"]): return "CINE"
+    if any(x in n for x in ["serie","ficcion","novela"]): return "SERIES"
+    if any(x in n for x in ["deport","futbol","laliga","golf","sport","dazn","eurosport"]): return "DEPORTES"
+    if any(x in n for x in ["docu","historia","natur","ciencia","national geographic","discovery","odisea"]): return "DOCUMENTALES"
+    if any(x in n for x in ["tdt","la 1","la1","la 2","antena","cuatro","telecinco","sexta","trece"]): return "TDT"
+    return "GENERAL"
+
 salida = ['#EXTM3U url-tvg="https://raw.githubusercontent.com/hamotero-cmd/iptv/main/epg_fusion.xml"']
-total=0
-for nombre,url in FUENTES.items():
+vistos = set()
+
+for nombre_fuente, url in FUENTES.items():
     try:
         txt = requests.get(url, timeout=30).text
-        canales = re.findall(r'(#EXTINF[^\n]+\nhttps?://[^\n]+)', txt)
-        for c in canales:
-            salida.append(c)
-            total+=1
-        print(f"{nombre}: {len(canales)}")
-    except Exception as e:
-        print(f"Error {nombre}: {e}")
-
-with open("lista_pro.m3u","w",encoding="utf-8") as f:
-    f.write("\n".join(salida))
-
-print("📺 EPG...")
-root = ET.Element("tv")
-for epg_url in EPGS:
-    try:
-        data = gzip.decompress(requests.get(epg_url, timeout=30).content)
-        tree = ET.fromstring(data)
-        for child in tree: root.append(child)
+        for linea in txt.splitlines():
+            if linea.startswith("#EXTINF"):
+                tvg_id = re.search('tvg-id="([^"]*)"', linea)
+                logo = re.search('tvg-logo="([^"]*)"', linea)
+                grupo = re.search('group-title="([^"]*)"', linea)
+                nombre = linea.split(",")[-1].strip()
+                
+                nuevo_grupo = clasificar(nombre, grupo.group(1) if grupo else "")
+                linea_nueva = f'#EXTINF:-1 tvg-id="{tvg_id.group(1) if tvg_id else ""}" tvg-logo="{logo.group(1) if logo else ""}" group-title="{nuevo_grupo}",{nombre}'
+                salida.append(linea_nueva)
+            elif linea.startswith("http") and "m3u8" in linea:
+                if linea not in vistos:
+                    salida.append(linea)
+                    vistos.add(linea)
     except: pass
-ET.ElementTree(root).write("epg_fusion.xml", encoding="utf-8", xml_declaration=True)
 
-print(f"Listo - {total} canales")
+open("lista_pro.m3u","w",encoding="utf-8").write("\n".join(salida))
+print(f"Lista reagrupada: {len([l for l in salida if l.startswith('http')])} canales")
