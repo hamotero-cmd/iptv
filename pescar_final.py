@@ -4,6 +4,7 @@ from datetime import datetime
 FUENTES = {
     "TDT": "https://www.tdtchannels.com/lists/tv.m3u",
     "Pluto": "https://raw.githubusercontent.com/iptv-org/iptv/master/countries/es.m3u",
+    "PlutoCine": "https://i.mjh.nz/PlutoTV/es.m3u8",
     "Espanol": "https://iptv-org.github.io/iptv/languages/spa.m3u",
 }
 EPGS = [
