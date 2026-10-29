@@ -2001,7 +2001,7 @@ https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
 https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalPeniel.gt@SD" tvg-logo="https://i.imgur.com/Z7aKJCt.png" group-title="GENERAL",Canal Peniel (720p) [Not 24/7]
 https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
-#EXTINF:-1 tvg-id="CanalPro.py@SD" tvg-logo="https://i.imgur.com/ah8n7jL.png" group-title="GENERAL",Canal Pro
+#EXTINF:-1 tvg-id="CanalPro.py@SD" tvg-logo="https://i.imgur.com/h7qelDq.png" group-title="GENERAL",Canal Pro
 https://www.desde-paraguay.com/pro.m3u8
 #EXTINF:-1 tvg-id="CanalProvincial.ar@SD" tvg-logo="https://i.imgur.com/bXHHtcb.png" group-title="GENERAL",Canal Provincial (360p)
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
@@ -2957,8 +2957,8 @@ https://streaming.onnethn.com/HBO/playlist.m3u8
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cinemax.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="HBOXtremeLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png" group-title="SERIES",HBO Xtreme Latin America
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Xtreme/chunks.m3u8
-#EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png" group-title="GENERAL",HBO+ Latin America (720p) [Geo-blocked]
-http://15.204.246.24:8080/HBOPlusHD/index.m3u8
+#EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png" group-title="GENERAL",HBO+ Latin America (1080p)
+http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8
 #EXTINF:-1 tvg-id="HCH.hn@SD" tvg-logo="https://i.imgur.com/2CB5ezq.png" group-title="GENERAL",HCH (720p)
 https://live.streamhch.com/live/streams/hch1.m3u8
 #EXTINF:-1 tvg-id="HechosEcuador.ec@SD" tvg-logo="https://i.imgur.com/koMQZNX.png" group-title="GENERAL",Hechos Ecuador (1080p) [Not 24/7]
@@ -3660,7 +3660,7 @@ https://vdochile.com:3194/live/mvqutymylive.m3u8
 https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8
 #EXTINF:-1 tvg-id="NandejaraNeeTV.py@SD" tvg-logo="https://i.imgur.com/VFxuBdL.jpg" group-title="GENERAL",Nandejara Ne'e TV
 https://copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?admin=tvaccion
-#EXTINF:-1 tvg-id="Nanduti.py@SD" tvg-logo="https://i.imgur.com/vnIkhRO.png" group-title="GENERAL",Nanduti (1080p)
+#EXTINF:-1 tvg-id="Nanduti.py@SD" tvg-logo="https://i.imgur.com/AsuVsLa.png" group-title="GENERAL",Nanduti (1080p)
 https://nanduti.b-cdn.net/Source.m3u8
 #EXTINF:-1 tvg-id="NaranjaTV.do@SD" tvg-logo="https://i.imgur.com/g7iFN3s.png" group-title="GENERAL",Naranja TV (720p)
 https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8
@@ -4353,7 +4353,7 @@ http://181.78.12.119:16123/play/ch15/index.m3u8
 https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8
 #EXTINF:-1 tvg-id="RBTV.py@SD" tvg-logo="https://i.imgur.com/EMFAFX0.png" group-title="GENERAL",RB TV (1080p)
 https://video.hostingcaaguazu.com:19360/rbtv/rbtv.m3u8
-#EXTINF:-1 tvg-id="RCCTV.py@SD" tvg-logo="https://i.imgur.com/qdjBnRl.png" group-title="GENERAL",RCC TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="RCCTV.py@SD" tvg-logo="https://i.imgur.com/sd9iOIh.png" group-title="GENERAL",RCC TV (1080p) [Not 24/7]
 https://copacoradios.desdeparaguay.net/rcctv/rcctv/playlist.m3u8?admin=nacion
 #EXTINF:-1 tvg-id="RCGTV2.mx@SD" tvg-logo="https://i.imgur.com/hXs9b7v.png" group-title="GENERAL",RCG TV 2 (360p) [Not 24/7]
 https://5caf24a595d94.streamlock.net:1937/stream56/stream56/playlist.m3u8
@@ -5043,6 +5043,8 @@ https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8
 #EXTINF:-1 tvg-id="TelevisionAranda.es@SD" tvg-logo="https://i.imgur.com/FwIIdKG.png" group-title="GENERAL",Television Aranda (720p)
 https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8
 #EXTINF:-1 tvg-id="TelevisionCanaria.es@SD" tvg-logo="https://rtvc.es/archivos/2020/03/logo-mobilretina.png" group-title="GENERAL",Television Canaria (1080p)
+#EXTINF:-1 tvg-id="TelevisionCaribe.us@HD" tvg-logo="https://televisioncaribe.com/logo.png" group-title="GENERAL",Television Caribe (1080p)
+https://televisioncaribe.com/index.m3u8
 #EXTINF:-1 tvg-id="TelevisionComayaguaCanal40.hn@SD" tvg-logo="https://i.imgur.com/uDLhsDM.png" group-title="GENERAL",Television Comayagua Canal 40 (720p) [Not 24/7]
 https://mediacp.us:8081/8034/index.m3u8
 #EXTINF:-1 tvg-id="TelevisionConsciente.es@SD" tvg-logo="https://i.imgur.com/6QVHKPw.png" group-title="GENERAL",Television Consciente (1080p)
@@ -5169,6 +5171,8 @@ http://38.134.250.110:8000/play/a01t/index.m3u8
 http://45.134.141.161:2200/ARG/Tooncast/index.m3u8
 #EXTINF:-1 tvg-id="Tooncast.us@SouthAmerica" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="GENERAL",Tooncast SouthAmerica (480p)
 http://190.61.42.218:9000/play/a06i/index.m3u8
+#EXTINF:-1 tvg-id="TopLatinoTV.pe@SD" tvg-logo="https://i.imgur.com/VRl8nPZ.png" group-title="GENERAL",Top Latino TV
+http://38.87.224.20:2220/play/a02b/index.m3u8
 #EXTINF:-1 tvg-id="TopTV.pe@SD" tvg-logo="https://i.imgur.com/tiNvihZ.png" group-title="GENERAL",Top TV (Peru) (240p) [Not 24/7]
 https://tvdatta.com:3084/live/toptvaguaytialive.m3u8
 #EXTINF:-1 tvg-id="TopicalMoonRD.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3900-294x165-FFFFFF.jpg" group-title="GENERAL",Topical Moon RD (720p) [Not 24/7]
@@ -5738,8 +5742,6 @@ https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8
 https://unlimited1-us.dps.live/vtv/vtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WaldivisionInternacional.hn@SD" tvg-logo="https://i.imgur.com/NB8pfpb.png" group-title="GENERAL",Waldivision Internacional
 https://media.streambrothers.com:19360/8308/8308.m3u8
-#EXTINF:-1 tvg-id="WAPATV41.pr@HD" tvg-logo="https://i.imgur.com/kqq7tD9.png" group-title="GENERAL",WAPA-TV 4.1 (1080p) [Not 24/7]
-https://wapa-updater.onrender.com/WAPA-TV-4-1.m3u8
 #EXTINF:-1 tvg-id="Wapp.cl@SD" tvg-logo="https://i.imgur.com/Bv1yJ1d.png" group-title="GENERAL",Wapp (720p)
 https://stream.wapptv.cl/video/index.m3u8
 #EXTINF:-1 tvg-id="WarnerChannel.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png" group-title="GENERAL",Warner Channel Colombia (1080p)
