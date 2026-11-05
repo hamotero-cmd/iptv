@@ -175,21 +175,21 @@ https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8
 https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="GENERAL",Congreso de los Diputados
 https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006551/punto1/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006591/punto2/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006592/punto3/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006593/punto4/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006594/punto5/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006595/punto6/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006589/punto7/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2015722457508810752/NpsKmNCK_200x200.jpg" group-title="GENERAL",Senado
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2117563720138174464/GG24RqEq_200x200.jpg" group-title="GENERAL",Senado
 https://senadolive.akamaized.net/hls/live/2006590/punto8/master.m3u8
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="GENERAL",Canal Sur Andalucía
 https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/74cdbd1b401a7598ab8f3e9b5652c9909daa60dd4f6f96f28396a3f1cfd926f2.m3u8
@@ -713,7 +713,7 @@ https://bideoak.legebiltzarra.eus/zuzenean/stream-3_channel-1/playlist.m3u8
 https://bideoak.legebiltzarra.eus/zuzenean/stream-3_channel-2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/2030898420681232384/TBZNbHLJ_200x200.jpg" group-title="GENERAL",Junta General del Principado de Asturias
 https://wmserver.jgpa.es/live/_definst_/livestream2/playlist.m3u8
-#EXTINF:-1 tvg-id="PopularMU.TV" tvg-logo="https://pbs.twimg.com/profile_images/2049481726964187136/w67cmHGs_200x200.jpg" group-title="GENERAL",Popular TV Murcia
+#EXTINF:-1 tvg-id="PopularMU.TV" tvg-logo="https://pbs.twimg.com/profile_images/2116849690226380800/JoFN9Vgz_200x200.jpg" group-title="GENERAL",Popular TV Murcia
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12690&live=1
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/tuwebtv/picture?width=200&height=200" group-title="GENERAL",Canal 1 Mar Menor Torre Pacheco
 https://directo.tuwebtv.es/canal1.m3u8
