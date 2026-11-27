@@ -13,6 +13,12 @@ https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 https://edge-nodo-002.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://graph.facebook.com/TRECEtves/picture?width=200&height=200" group-title="TDT",TRECE
 https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3u8
+#EXTINF:-1 tvg-id="Squirrel.TV" tvg-logo="https://pbs.twimg.com/profile_images/1868605710218514432/98bLWAHa_200x200.jpg" group-title="GENERAL",Squirrel
+https://squirrel.cdn.plenitas.pro/squirrel-es/hls/master.m3u8
+#EXTINF:-1 tvg-id="Squirrel2.TV" tvg-logo="https://pbs.twimg.com/profile_images/2007038154994294784/NqJe7hvI_200x200.jpg" group-title="GENERAL",Squirrel2
+https://squirrel.cdn.plenitas.pro/squirreldos/hls/master.m3u8
+#EXTINF:-1 tvg-id="BOM.TV" tvg-logo="https://pbs.twimg.com/profile_images/1450728866377568257/B8HFyLJe_200x200.jpg" group-title="CINE",BOM Cine
+https://squirrel.cdn.plenitas.pro/bomcine/hls/master.m3u8
 #EXTINF:-1 tvg-id="RNE.TV" tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" group-title="GENERAL",RNE Accesible
 https://ztnr.rtve.es/ztnr/6688753.m3u8
 #EXTINF:-1 tvg-id="RNE.TV" tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" group-title="GENERAL",RNE Accesible
@@ -73,6 +79,10 @@ https://amg17560-fcb-amg17560c2-samsung-es-9803.playouts.now.amagi.tv/ts-eu-w1-n
 https://amg17560-fcb-amg17560c3-lg-es-11383.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17560-fcbarcelona-topbarcacatala-lges/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/futsalmafer.tv/picture?width=200&height=200" group-title="DEPORTES",Futsalmafer.tv
 https://play.agenciastreaming.com:8081/futsalmafertv/index.m3u8
+#EXTINF:-1 tvg-id="Horse.TV" tvg-logo="https://graph.facebook.com/horsetvES/picture?width=200&height=200" group-title="DEPORTES",Horse TV
+https://squirrel.cdn.plenitas.pro/hprse-es/hls/master.m3u8
+#EXTINF:-1 tvg-id="Nautical_Channel.TV" tvg-logo="https://graph.facebook.com/nauticalchannelesp/picture?width=200&height=200" group-title="DEPORTES",Nautical Channel
+https://squirrel.cdn.plenitas.pro/nautical-es/hls/master.m3u8
 #EXTINF:-1 tvg-id="Clan.TV" tvg-logo="https://graph.facebook.com/clantve/picture?width=200&height=200" group-title="GENERAL",Clan GEO
 https://ztnr.rtve.es/ztnr/5466990.m3u8
 #EXTINF:-1 tvg-id="Clan.TV" tvg-logo="https://graph.facebook.com/clantve/picture?width=200&height=200" group-title="GENERAL",Clan GEO
@@ -163,10 +173,6 @@ https://rtvelivestream.rtve.es/eventual/gofast/playm26_main.m3u8
 https://ztnr.rtve.es/ztnr/17232941.m3u8
 #EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="GENERAL",RTVE 70 años (RTVE)
 https://rtvelivestream.rtve.es/eventual/gofast/playm28_main_dvr.m3u8
-#EXTINF:-1 tvg-id="RTVE_PopUp3.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="GENERAL",Segunda estrella (RTVE)
-https://ztnr.rtve.es/ztnr/17239088.m3u8
-#EXTINF:-1 tvg-id="RTVE_PopUp3.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="GENERAL",Segunda estrella (RTVE)
-https://rtvelivestream.rtve.es/eventual/gofast/playm29_main.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="GENERAL",Canal Parlamento
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="GENERAL",Congreso de los Diputados
@@ -1009,8 +1015,6 @@ https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.energeek.cl/logos/EG-Radio-2025_pfp.png" group-title="GENERAL",EnerGeek Radio Chile SD
 https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES
-#EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/conexionberatv/picture?width=200&height=200" group-title="GENERAL",Conexión Berazategui Argentina
-https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/radioitalia/picture?width=200&height=200" group-title="GENERAL",Radio Italia TV IT
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://graph.facebook.com/RTL102.5/picture?width=200&height=200" group-title="GENERAL",RTL 102.5 Italia IT
@@ -1255,8 +1259,6 @@ https://jmp2.uk/plu-61b793ccf571b80007b7a610.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="AERadioTV.cl@SD" tvg-logo="https://i.imgur.com/425dj2i.jpeg" group-title="GENERAL",AE Radio TV (720p) [Not 24/7]
 https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AFVEspanol.us@SD" tvg-logo="https://i.imgur.com/HUK4WXC.png" group-title="GENERAL",AFV Espanol (720p) [Not 24/7]
-https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="AgapeTV.sv@SD" tvg-logo="https://i.imgur.com/DsGmrnc.png" group-title="GENERAL",Agape TV (720p)
 https://5fc584f3f19c9.streamlock.net/agape/smil:agape.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AGRFMTV.py@SD" tvg-logo="https://i.imgur.com/tg6EjTU.png" group-title="GENERAL",AGR FM TV (720p)
@@ -3193,13 +3195,11 @@ https://2-fss-1.streamhoster.com/pl_122/200226-1427780-1/playlist.m3u8
 http://45.4.1.201:8000/play/a1ai/index.m3u8
 #EXTINF:-1 tvg-id="L1Max.pe@SD" tvg-logo="https://i.imgur.com/2fziU2B.png" group-title="DEPORTES",L1 Max (1080p)
 http://190.93.224.42/LIGA-1-MAX/index.m3u8
-#EXTINF:-1 tvg-id="La1.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 (1086p)
-#EXTINF:-1 tvg-id="La1.es@UHD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 UHD (2160p)
-http://185.47.212.25:8080/tdp_HD/index.m3u8
-#EXTINF:-1 tvg-id="La1Canarias.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 Canarias (720p)
-https://ztnr.rtve.es/ztnr/5190066.m3u8
-#EXTINF:-1 tvg-id="La1Catalunya.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 Catalunya (720p)
-https://ztnr.rtve.es/ztnr/3293681.m3u8
+#EXTINF:-1 tvg-id="La1.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="La1Canarias.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 Canarias (720p) [Geo-blocked]
+https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main.m3u8
+#EXTINF:-1 tvg-id="La1Catalunya.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="TDT",La 1 Catalunya (720p) [Geo-blocked]
+https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main.m3u8
 #EXTINF:-1 tvg-id="La2.es@SD" tvg-logo="https://i.ibb.co/rfsr9PSh/La-2.png" group-title="TDT",La 2 (1080p)
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la2.m3u8
 #EXTINF:-1 tvg-id="La2Canarias.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Logo_La_2_Canarias.png/960px-Logo_La_2_Canarias.png" group-title="TDT",La 2 Canarias (720p)
@@ -4584,8 +4584,8 @@ https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
 #EXTINF:-1 tvg-id="SiembraTV.ve@SD" tvg-logo="https://i.imgur.com/zRX91Xr.png" group-title="GENERAL",Siembra TV (Venezuela) (720p) [Not 24/7]
 https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8
-#EXTINF:-1 tvg-id="SigloXXITV.bo@SD" tvg-logo="https://i.imgur.com/d1N2WzD.png" group-title="GENERAL",Siglo XXI TV (576p)
-http://190.181.61.93:8000/play/a00b/index.m3u8
+#EXTINF:-1 tvg-id="SigloXXITV.bo@SD" tvg-logo="https://i.imgur.com/d1N2WzD.png" group-title="GENERAL",Siglo XXI TV (720p)
+https://edge.enhdtv.com/sigloxxi/index.m3u8
 #EXTINF:-1 tvg-id="SILTV.gt@SD" tvg-logo="https://i.imgur.com/tWZXRVu.png" group-title="GENERAL",SIL TV (1080p)
 https://183.giatvcdn.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8
 #EXTINF:-1 tvg-id="SimavisionCanal18.do@SD" tvg-logo="https://i.imgur.com/io9o30K.jpg" group-title="GENERAL",Simavision Canal 18 (720p)
@@ -5724,8 +5724,8 @@ https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
 https://cloudvideo.servers10.com:8081/8198/index.m3u8
 #EXTINF:-1 tvg-id="Volver.ar@SD" tvg-logo="https://i.imgur.com/PYvSZMb.png" group-title="GENERAL",Volver (576p)
 http://138.121.113.175:8000/play/a04r/index.m3u8
-#EXTINF:-1 tvg-id="VosTV.bo@SD" tvg-logo="https://i.imgur.com/Cm1Xjeq.png" group-title="GENERAL",Vos TV (Bolivia) (720p)
-http://15.204.246.24:8080/VOSTVHD/index.m3u8
+#EXTINF:-1 tvg-id="VosTV.bo@SD" tvg-logo="https://i.imgur.com/Cm1Xjeq.png" group-title="GENERAL",Vos TV (Bolivia) (1080p)
+https://edge.enhdtv.com/vostv/index.m3u8
 #EXTINF:-1 tvg-id="VosTV.ni@SD" tvg-logo="https://i.imgur.com/Lbi87xv.png" group-title="GENERAL",Vos TV (Nicaragua) (720p) [Not 24/7]
 http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8
 #EXTINF:-1 tvg-id="VosyTV.ec@SD" tvg-logo="https://i.imgur.com/294FDCB.png" group-title="GENERAL",Vos y TV (720p) [Not 24/7]
